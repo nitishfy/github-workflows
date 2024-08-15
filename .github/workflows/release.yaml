@@ -4,8 +4,6 @@ on:
   release:
     types:
       - published
-      - created
-
 jobs:
   test:
     runs-on: ubuntu-latest
