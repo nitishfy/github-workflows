@@ -3,7 +3,7 @@ name: Test Release Edit Trigger
 on:
   release:
     types:
-      - edited
+      - published
       - created
 
 jobs:
