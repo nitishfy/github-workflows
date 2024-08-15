@@ -2,7 +2,7 @@ name: Test Release Edit Trigger
 
 on:
   release:
-    types: [published, edited]
+    types: [published, edited, created]
 jobs:
   test:
     runs-on: ubuntu-latest
