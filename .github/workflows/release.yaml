@@ -1,0 +1,12 @@
+name: Test Release Edit Trigger
+
+on:
+  release:
+    types:
+      - edited
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Release edited trigger works!"
